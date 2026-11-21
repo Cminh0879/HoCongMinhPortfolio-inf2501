@@ -1,0 +1,47 @@
+<!--
+  HÌNH MINH HỌA TẠM THỜI (vẽ bằng code SVG, có AI – Claude hỗ trợ).
+  Hãy thay bằng ảnh đại diện hoặc bức tự họa của bạn:
+  chép ảnh vào thư mục images/ rồi sửa đường dẫn trong index.html.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750" role="img" aria-labelledby="title">
+  <title id="title">Hình minh họa tạm: phác thảo chân dung với các đường dựng hình trên nền đen</title>
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#EDE7DC" stroke-opacity=".07"/>
+    </pattern>
+    <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(40)">
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#EDE7DC" stroke-width="1.1" stroke-opacity=".55"/>
+    </pattern>
+  </defs>
+
+  <!-- Nền + lưới giấy kẻ ô -->
+  <rect width="600" height="750" fill="#161515"/>
+  <rect width="600" height="750" fill="url(#grid)"/>
+
+  <!-- Mặt trời đỏ son -->
+  <circle cx="392" cy="262" r="150" fill="#FF5B3A"/>
+
+  <!-- Vai và thân: tô gạch chéo kiểu bút chì -->
+  <path d="M238 452 Q244 490 222 508 Q124 540 92 650 L82 750 L518 750 L508 650 Q476 540 378 508 Q356 490 362 452 Z"
+        fill="url(#hatch)" stroke="#EDE7DC" stroke-width="2"/>
+  <path d="M236 456 Q246 494 218 512 Q130 546 98 652" fill="none" stroke="#EDE7DC" stroke-width="1" stroke-opacity=".45"/>
+
+  <!-- Đầu: hai nét viền lệch nhau như nét phác -->
+  <ellipse cx="300" cy="330" rx="100" ry="122" fill="#161515" stroke="#EDE7DC" stroke-width="2.5"/>
+  <ellipse cx="304" cy="326" rx="104" ry="118" fill="none" stroke="#EDE7DC" stroke-width="1" stroke-opacity=".45" transform="rotate(-4 300 330)"/>
+
+  <!-- Đường dựng hình: trục giữa mặt và đường mắt -->
+  <path d="M292 206 Q300 330 310 454" fill="none" stroke="#EDE7DC" stroke-width="1" stroke-dasharray="6 6" stroke-opacity=".6"/>
+  <path d="M202 322 Q300 350 398 318" fill="none" stroke="#EDE7DC" stroke-width="1" stroke-dasharray="6 6" stroke-opacity=".6"/>
+  <path d="M222 386 Q300 404 382 382" fill="none" stroke="#EDE7DC" stroke-width="1" stroke-dasharray="3 7" stroke-opacity=".45"/>
+
+  <!-- Dấu đăng ký in ở 4 góc -->
+  <g fill="none" stroke="#8F8A82" stroke-width="1.2">
+    <circle cx="44" cy="44" r="11"/><path d="M44 26V62M26 44H62"/>
+    <circle cx="556" cy="44" r="11"/><path d="M556 26V62M538 44H574"/>
+  </g>
+
+  <!-- Chữ -->
+  <text x="44" y="118" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="20" fill="#8F8A82">sketch no. 01</text>
+  <text x="44" y="150" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="700" font-size="30" fill="#EDE7DC">HCM<tspan fill="#FF5B3A">.</tspan></text>
+</svg>

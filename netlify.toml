@@ -1,0 +1,4 @@
+# Cấu hình Netlify cho website tĩnh: không cần lệnh build,
+# Netlify xuất bản thẳng thư mục gốc (nơi có index.html).
+[build]
+  publish = "."

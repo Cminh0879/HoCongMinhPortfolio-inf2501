@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bài 5 · AI tạo sinh hỗ trợ sáng tạo nội dung — Hồ Công Minh · INF2501</title>
+  <meta name="description" content="Bài 5 (Chương 5) – AI tạo sinh hỗ trợ sáng tạo nội dung: mục tiêu, quá trình thực hiện và sản phẩm cuối cùng. Portfolio INF2501 của Hồ Công Minh.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<!--
+  HƯỚNG DẪN SỬA TRANG NÀY
+  - Tìm các chữ nằm trong [NGOẶC VUÔNG] và thay bằng nội dung THẬT của bạn
+    (xoá luôn cả dấu ngoặc vuông). Trên website, các chỗ chưa điền được tô viền đỏ.
+  - Link / khung nhúng / ảnh còn để [ ... ] sẽ tự bị khoá, không gây link hỏng.
+  - Muốn thêm một bước: chép nguyên một khối <li> ... </li> trong danh sách "steps".
+  - Muốn thêm một dòng bảng: chép nguyên một khối <tr> ... </tr>.
+-->
+<body data-page="bai5">
+  <a class="skip-link" href="#main">Bỏ qua menu</a>
+  <header class="site-header" id="site-header"></header>
+
+  <main id="main">
+
+    <!-- ============ TIÊU ĐỀ BÀI ============ -->
+    <header class="page-hero container">
+      <span class="reg reg--tr" aria-hidden="true"></span>
+      <nav class="breadcrumb load-in" style="--d:0" aria-label="Vị trí trang">
+        <a href="index.html">Giới thiệu</a><span aria-hidden="true">/</span>
+        <a href="projects.html">Dự án</a><span aria-hidden="true">/</span>
+        <span aria-current="page">Bài 5</span>
+      </nav>
+
+      <div class="exercise-hero-grid">
+        <h1 class="exercise-title load-in" style="--d:1">
+          <span class="exercise-ch">Bài 5 · Chương 5</span>
+          AI tạo sinh hỗ trợ sáng tạo nội dung
+        </h1>
+        <span class="plate-num load-in" style="--d:2" aria-hidden="true">05</span>
+      </div>
+
+      <dl class="exercise-meta load-in" style="--d:3">
+        <div><dt>Công cụ</dt><dd>Microsoft Designer, Leonardo AI, Colormind, CapCut, Pexels, Google, YouTube</dd></div>
+        <div><dt>Sử dụng AI</dt><dd>Sử dụng để thực nghiệm, chỉnh sửa video và đăng bài</dd></div>
+        <div><dt>Sản phẩm</dt><dd>Báo cáo quá trình làm việc nhóm và video thuyết trình</dd></div>
+      </dl>
+    </header>
+
+    <div class="exercise-layout container">
+
+      <!-- Mục lục nhỏ của bài -->
+      <aside class="toc" aria-label="Mục lục bài">
+        <p class="eyebrow">Trong bài này</p>
+        <ol>
+          <li><a href="#muc-tieu"><span>a.</span> Mục tiêu</a></li>
+          <li><a href="#qua-trinh"><span>b.</span> Quá trình</a></li>
+          <li><a href="#san-pham"><span>c.</span> Sản phẩm</a></li>
+        </ol>
+      </aside>
+
+      <div>
+
+        <!-- ============ (a) MỤC TIÊU BÀI TẬP ============
+             Đoạn mục tiêu dưới đây viết theo yêu cầu của đề; hãy sửa lại cho đúng đề giảng viên giao. -->
+        <section class="block" id="muc-tieu" data-reveal>
+          <header class="block-head"><span class="block-letter" aria-hidden="true">a</span><h2>Mục tiêu bài tập</h2></header>
+          <div class="prose">
+            <p>Tạo một sản phẩm nội dung số hoàn chỉnh (ảnh, video hoặc bài viết) với sự hỗ trợ của AI tạo sinh,
+            đồng thời phân định rõ phần nào AI hỗ trợ và phần nào do mình tự làm.</p>
+            <p><strong>Chủ đề sản phẩm:</strong> Ứng dụng trí tuệ nhân tạo trong sáng tác tác phẩm mỹ thuật.</p>
+          </div>
+        </section>
+
+        <!-- ============ (b) TÓM TẮT QUÁ TRÌNH THỰC HIỆN ============ -->
+        <section class="block" id="qua-trinh" data-reveal>
+          <header class="block-head"><span class="block-letter" aria-hidden="true">b</span><h2>Quá trình thực hiện</h2></header>
+
+          <h3 class="sub-head">Các bước</h3>
+          <ol class="steps">
+            <li>
+              <h3>Thảo luận và phân công công việc</h3>
+              <p>Sau khi nhận yêu cầu bài tập, nhóm cùng thảo luận, lên ý tưởng và thống nhất chủ đề “Ứng dụng trí tuệ nhân tạo trong sáng tác tác phẩm mỹ thuật”. Nhóm trưởng xác định nội dung chính và phân chia nhiệm vụ cho từng thành viên.</p>
+            </li>
+            <li>
+              <h3>Tìm kiếm thông tin và thực hiện nhiệm vụ</h3>
+              <p>Các thành viên nghiên cứu các ứng dụng AI, chuẩn bị nội dung thuyết trình và thực hiện phần việc được giao. Nhóm sử dụng Microsoft Designer, Leonardo AI, Colormind để minh họa; Google, Pexels và YouTube để tìm kiếm thông tin, hình ảnh và tư liệu tham khảo.</p>
+            </li>
+            <li>
+              <h3>Tổng hợp và hoàn thiện sản phẩm</h3>
+              <p>Nhóm trưởng tổng hợp video thuyết trình của các thành viên, sử dụng CapCut để ghép video, bổ sung hình ảnh minh họa và hiệu ứng. Sau khi hoàn thiện, video được đăng tải lên YouTube.</p>
+            </li>
+          </ol>
+
+          <h3 class="sub-head">Công cụ đã dùng</h3>
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr><th scope="col">Công cụ</th><th scope="col">Dùng để làm gì</th><th scope="col">Loại</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Microsoft Designer</td><td>Hỗ trợ tạo hình ảnh và thiết kế minh họa</td><td>AI</td></tr>
+                <tr><td>Leonardo AI</td><td>Thực nghiệm tạo hình ảnh bằng AI</td><td>AI</td></tr>
+                <tr><td>Colormind</td><td>Hỗ trợ lựa chọn và phối màu</td><td>AI</td></tr>
+                <tr><td>CapCut</td><td>Chỉnh sửa, ghép video và thêm hiệu ứng</td><td>Không</td></tr>
+                <tr><td>Pexels</td><td>Tìm kiếm hình ảnh và video minh họa</td><td>Không</td></tr>
+                <tr><td>Google</td><td>Tìm kiếm thông tin và tài liệu tham khảo</td><td>Không</td></tr>
+                <tr><td>YouTube</td><td>Tham khảo nội dung và đăng tải video hoàn chỉnh</td><td>Không</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+        </section>
+
+        <!-- ============ (c) SẢN PHẨM CUỐI CÙNG ============ -->
+        <section class="block" id="san-pham" data-reveal>
+          <header class="block-head"><span class="block-letter" aria-hidden="true">c</span><h2>Sản phẩm cuối cùng</h2></header>
+          <h3 class="sub-head">Tài liệu Bài 5 – Báo cáo quá trình làm việc nhóm</h3>
+          <div class="compare-card" style="margin-bottom:2rem">
+            <p class="prose"><strong>BÁO CÁO QUÁ TRÌNH LÀM VIỆC NHÓM</strong></p>
+            <p class="prose">Chủ đề: Ứng dụng trí tuệ nhân tạo trong sáng tác tác phẩm mỹ thuật.</p>
+            <p class="prose">Tài liệu trình bày quá trình thực hiện, phân công nhiệm vụ, công cụ sử dụng, những khó khăn và kết luận của nhóm.</p>
+            <p><a class="btn btn-ghost btn-small" href="https://docs.google.com/document/d/1SkBMXAK1a_XKXKj3uqRcy_GZmSx8Tj2R/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Mở tài liệu Word <span class="arrow">↗</span></a></p>
+          </div>
+          <h3 class="sub-head">Video thuyết trình Bài 5</h3>
+          <p class="prose">Video thuyết trình nhóm về ứng dụng trí tuệ nhân tạo trong sáng tác tác phẩm mỹ thuật.</p>          <!-- Video YouTube hoặc tệp trên Drive: dán link vào CẢ HAI chỗ [LINK SẢN PHẨM BÀI 5] (main.js tự đổi sang dạng nhúng).
+               Nếu sản phẩm là ẢNH: thay cả khối <figure class="embed"> bên dưới bằng:
+               <figure class="figure"><img src="images/bai5-san-pham.jpg" alt="Mô tả ảnh"><figcaption>Chú thích</figcaption></figure>
+               Nếu là BÀI VIẾT: có thể nhúng Google Docs, đổi embed-frame--video thành embed-frame--doc. -->
+          <figure class="embed">
+            <div class="embed-frame embed-frame--video">
+              <iframe src="https://www.youtube.com/embed/8qxAxH4YVCA" title="Sản phẩm Bài 5 – nội dung số có hỗ trợ của AI" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
+            <figcaption class="embed-cap">
+              <span>Video thuyết trình · YouTube</span>
+              <a class="btn btn-ghost btn-small" href="https://www.youtube.com/watch?v=8qxAxH4YVCA" target="_blank" rel="noopener">Mở trong tab mới <span class="arrow">↗</span></a>
+            </figcaption>
+          </figure>
+
+        </section>
+
+      </div>
+    </div>
+
+    <!-- ============ NÚT QUAY LẠI / BÀI KẾ TIẾP ============ -->
+    <nav class="pager container" aria-label="Chuyển bài">
+      <a class="pager-link" href="projects.html">
+        <span class="pager-label">← Quay lại</span>
+        <span class="pager-title">Danh mục Dự án</span>
+      </a>
+      <a class="pager-link pager-next" href="bai6.html">
+        <span class="pager-label">Bài kế tiếp →</span>
+        <span class="pager-title">06 · Sử dụng AI có trách nhiệm</span>
+      </a>
+    </nav>
+
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+</body>
+</html>

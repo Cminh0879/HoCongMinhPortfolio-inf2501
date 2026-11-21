@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Giới thiệu — Hồ Công Minh · Portfolio INF2501</title>
+  <meta name="description" content="Portfolio của Hồ Công Minh, sinh viên Thiết kế Đồ họa K17A, Trường Đại học Sư phạm Nghệ thuật Trung ương – học phần INF2501.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <!-- Font chữ từ Google Fonts: Fraunces (tiêu đề) + Be Vietnam Pro (nội dung) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&display=swap">
+
+  <!-- CSS và JS dùng chung cho mọi trang -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body data-page="home">
+  <a class="skip-link" href="#main">Bỏ qua menu</a>
+
+  <!-- Menu: được main.js tự chèn vào đây -->
+  <header class="site-header" id="site-header"></header>
+
+  <main id="main">
+
+    <!-- ============ PHẦN MỞ ĐẦU ============ -->
+    <section class="hero container" aria-labelledby="hero-name">
+      <div class="hero-text">
+        <p class="eyebrow load-in" style="--d:0">Portfolio cá nhân · Học phần INF2501</p>
+
+        <h1 class="hero-name load-in" id="hero-name" style="--d:1">
+          Hồ Công<br>
+          <em>Minh<span class="dot">.</span>
+            <!-- Nét gạch chân vẽ tay -->
+            <svg class="scribble" viewBox="0 0 300 30" preserveAspectRatio="none" aria-hidden="true">
+              <path pathLength="1" d="M4 20 C 60 8, 120 26, 180 14 S 270 10, 296 18"/>
+            </svg>
+          </em>
+        </h1>
+
+        <p class="hero-role load-in" style="--d:2">
+          Sinh viên ngành <strong>Thiết kế Đồ họa</strong>, lớp K17A —
+          Trường Đại học Sư phạm Nghệ thuật Trung ương.
+        </p>
+        <p class="hero-lead load-in" style="--d:3">
+          Mình thích vẽ tranh, phác thảo nhân vật, thiết kế minh họa và sáng tạo nghệ thuật
+          bằng nhiều chất liệu khác nhau. Website này là cuốn “sổ phác thảo” ghi lại
+          6 bài tập của học phần Nhập môn Công nghệ số và ứng dụng trí tuệ nhân tạo.
+        </p>
+
+        <div class="btn-row load-in" style="--d:4">
+          <a class="btn btn-primary" href="projects.html">Xem 06 bài tập <span class="arrow">→</span></a>
+          <a class="btn btn-ghost" href="#ve-minh">Đọc về mình</a>
+        </div>
+      </div>
+
+      <!-- ẢNH ĐẠI DIỆN
+           Hiện đang dùng hình minh họa tạm images/avatar.svg.
+           Cách thay: chép ảnh của bạn vào thư mục images/ (VD: avatar.jpg),
+           rồi sửa src="images/avatar.svg" thành src="images/avatar.jpg"
+           và sửa dòng chú thích (figcaption) bên dưới. -->
+      <div class="hero-portrait load-in" style="--d:3">
+        <figure class="portrait-frame">
+          <img src="images/anh-ca-nhan.png" width="1097" height="1097"
+               alt="Ảnh chân dung Hồ Công Minh">
+        </figure>
+      </div>
+
+      <p class="hero-vertical" aria-hidden="true">Sketchbook — Hồ Công Minh — 2554030031</p>
+    </section>
+
+    <!-- Băng chữ chạy: các sở thích (chỉ để trang trí, nội dung có ở mục 01) -->
+    <div class="marquee-wrap" aria-hidden="true">
+      <div class="marquee">
+        <div class="marquee-track">
+          <span>Vẽ tranh</span><span>Phác thảo nhân vật</span><span>Thiết kế minh họa</span><span>Nhiều chất liệu</span>
+          <span>Vẽ tranh</span><span>Phác thảo nhân vật</span><span>Thiết kế minh họa</span><span>Nhiều chất liệu</span>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ============ 01. VỀ MÌNH ============ -->
+    <section class="section container" id="ve-minh" aria-labelledby="ve-minh-title">
+      <div class="plate-head" data-reveal>
+        <span class="plate-head-num">01</span>
+        <h2 class="plate-head-title" id="ve-minh-title">Về mình</h2>
+        <span class="plate-head-rule"></span>
+      </div>
+
+      <div class="about-grid">
+        <!-- Bảng thông tin cá nhân -->
+        <dl class="spec-sheet" data-reveal>
+          <div><dt>Họ và tên</dt><dd>Hồ Công Minh</dd></div>
+          <div><dt>Ngành học</dt><dd>Thiết kế Đồ họa</dd></div>
+          <div><dt>Lớp</dt><dd>K17A</dd></div>
+          <div><dt>Mã sinh viên</dt><dd>2554030031</dd></div>
+          <div><dt>Trường</dt><dd>Đại học Sư phạm Nghệ thuật Trung ương</dd></div>
+          <div><dt>Học phần</dt><dd>INF2501_8 – Nhập môn Công nghệ số và ứng dụng trí tuệ nhân tạo</dd></div>
+          <div><dt>GV hướng dẫn</dt><dd>Vũ Việt Hoàng</dd></div>
+        </dl>
+
+        <!-- Sở thích -->
+        <div data-reveal>
+          <p class="eyebrow">Sở thích</p>
+          <p class="big-text">
+            Vẽ tranh, phác thảo nhân vật, thiết kế minh họa — và sáng tạo nghệ thuật bằng
+            <em>nhiều chất liệu khác nhau</em>.
+          </p>
+          <ul class="tag-list" aria-label="Các sở thích">
+            <li>Vẽ tranh</li>
+            <li>Phác thảo nhân vật</li>
+            <li>Thiết kế minh họa</li>
+            <li>Thử nghiệm chất liệu</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============ 02. MỤC TIÊU & ĐỊNH HƯỚNG ============ -->
+    <section class="section container" aria-labelledby="muc-tieu-title">
+      <div class="plate-head" data-reveal>
+        <span class="plate-head-num">02</span>
+        <h2 class="plate-head-title" id="muc-tieu-title">Mục tiêu &amp; định hướng</h2>
+        <span class="plate-head-rule"></span>
+      </div>
+
+      <div class="goals-grid">
+        <article data-reveal>
+          <h3 class="goal-title">Mục tiêu học tập</h3>
+          <p class="goal-intro">Trong thời gian học tại trường, mình tập trung vào:</p>
+          <ol class="roman-list">
+            <li>Nâng cao kỹ năng vẽ tay.</li>
+            <li>Rèn luyện tư duy bố cục và màu sắc.</li>
+            <li>Thành thạo các phần mềm thiết kế đồ họa để tạo ra những tác phẩm chất lượng cao.</li>
+          </ol>
+        </article>
+
+        <article class="goal-col--offset" data-reveal>
+          <h3 class="goal-title">Định hướng phát triển</h3>
+          <p class="goal-intro">Về lâu dài, mình muốn:</p>
+          <ol class="roman-list">
+            <li>Trở thành một người có khả năng sáng tạo tốt.</li>
+            <li>Không ngừng học hỏi các phong cách nghệ thuật mới.</li>
+            <li>Xây dựng phong cách vẽ riêng.</li>
+            <li>Phát triển kỹ năng làm việc trong lĩnh vực mỹ thuật, thiết kế.</li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+
+    <!-- ============ 03. MỤC TIÊU CỦA PORTFOLIO ============
+         Đoạn dưới đây là bản nháp, bạn có thể sửa lại theo ý mình. -->
+    <section class="section container" aria-labelledby="portfolio-title">
+      <div class="plate-head" data-reveal>
+        <span class="plate-head-num">03</span>
+        <h2 class="plate-head-title" id="portfolio-title">Mục tiêu của Portfolio</h2>
+        <span class="plate-head-rule"></span>
+      </div>
+
+      <div class="purpose-grid">
+        <blockquote class="purpose-quote" data-reveal>
+          Một cuốn sổ ghi lại cách mình <em>học, làm và dùng AI</em> trong suốt học phần.
+        </blockquote>
+
+        <div class="purpose-text" data-reveal>
+          <p>Portfolio này là bài tập lớn cá nhân của học phần INF2501, nhằm:</p>
+          <ul class="dash-list">
+            <li>Trình bày lại 06 bài tập theo cùng một khung: mục tiêu, quá trình thực hiện và sản phẩm cuối cùng.</li>
+            <li>Ghi rõ công cụ đã dùng và mục đích sử dụng AI ở từng bài, minh bạch theo yêu cầu của đề.</li>
+            <li>Lưu lại quá trình học để tự nhìn lại sự tiến bộ của bản thân.</li>
+          </ul>
+          <a class="btn btn-primary" href="projects.html">Đi tới Dự án <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Chân trang: được main.js tự chèn vào đây -->
+  <footer class="site-footer" id="site-footer"></footer>
+</body>
+</html>
