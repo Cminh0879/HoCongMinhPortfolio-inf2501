@@ -1,5 +1,5 @@
 /* =========================================================================
-   main.js — Portfolio Hồ Công Minh · INF2501
+   main.js — Portfolio Hồ Công Minh · INF2501_8
    File JavaScript DUY NHẤT, dùng chung cho mọi trang.
 
    File này làm 5 việc:
@@ -29,7 +29,7 @@
     mssv: "2554030031",
     lop: "K17A",
     nganh: "Thiết kế Đồ họa",
-    hocPhan: "INF2501 – Nhập môn Công nghệ số và ứng dụng trí tuệ nhân tạo",
+    hocPhan: "INF2501_8 – Nhập môn Công nghệ số và ứng dụng trí tuệ nhân tạo",
     giangVien: "Vũ Việt Hoàng",
     truong: "Trường Đại học Sư phạm Nghệ thuật Trung ương",
     khoa: "Khoa Giáo dục Đại cương",
@@ -85,7 +85,7 @@
       '<div class="header-inner container">' +
         '<a class="brand" href="index.html" aria-label="Về trang chủ – ' + SITE.hoTen + '">' +
           '<span class="brand-mark">HCM<span>.</span></span>' +
-          '<span class="brand-sub">Portfolio · INF2501</span>' +
+          '<span class="brand-sub">Portfolio · INF2501_8</span>' +
         "</a>" +
         '<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">' +
           '<span class="nav-toggle-bars" aria-hidden="true"></span>' +
